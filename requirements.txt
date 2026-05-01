@@ -1,0 +1,81 @@
+# =========================
+# Core
+# =========================
+python-dotenv
+pydantic
+typing-extensions
+
+# =========================
+# LLM - Mistral (API)
+# =========================
+mistralai
+
+# =========================
+# LLM - Mistral (Local via HuggingFace)
+# =========================
+transformers
+accelerate
+sentencepiece
+torch
+bitsandbytes
+
+# =========================
+# Embeddings
+# =========================
+sentence-transformers
+
+# =========================
+# Vector Database
+# =========================
+chromadb
+
+# =========================
+# RAG Framework
+# =========================
+langchain
+langchain-community
+langchain-core
+
+# Optional alternative framework
+llama-index
+
+# =========================
+# Backend (API serving)
+# =========================
+fastapi
+uvicorn
+
+# =========================
+# Data Processing
+# =========================
+pandas
+numpy
+
+# =========================
+# Document Loaders
+# =========================
+pypdf
+unstructured
+
+# =========================
+# Text Splitting / Tokenization
+# =========================
+tiktoken
+
+# =========================
+# HTTP / Async
+# =========================
+requests
+aiohttp
+
+# =========================
+# Logging / Debugging
+# =========================
+loguru
+
+# =========================
+# Optional (Advanced RAG / Prod)
+# =========================
+faiss-cpu        # alternative vector DB
+weaviate-client  # optional
+pinecone-client  # optional
