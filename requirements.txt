@@ -1,23 +1,23 @@
 # =========================
 # Core
 # =========================
+streamlit
 python-dotenv
 pydantic
 typing-extensions
 
 # =========================
-# LLM - Mistral (API)
+# LangChain
 # =========================
-mistralai
+langchain
+langchain-core
+langchain-community
+langchain-mistralai
 
 # =========================
-# LLM - Mistral (Local via HuggingFace)
+# Mistral API
 # =========================
-transformers
-accelerate
-sentencepiece
-torch
-bitsandbytes
+mistralai
 
 # =========================
 # Embeddings
@@ -30,20 +30,11 @@ sentence-transformers
 chromadb
 
 # =========================
-# RAG Framework
+# Document Processing
 # =========================
-langchain
-langchain-community
-langchain-core
-
-# Optional alternative framework
-llama-index
-
-# =========================
-# Backend (API serving)
-# =========================
-fastapi
-uvicorn
+pypdf
+unstructured
+tiktoken
 
 # =========================
 # Data Processing
@@ -52,30 +43,12 @@ pandas
 numpy
 
 # =========================
-# Document Loaders
-# =========================
-pypdf
-unstructured
-
-# =========================
-# Text Splitting / Tokenization
-# =========================
-tiktoken
-
-# =========================
-# HTTP / Async
+# HTTP Requests
 # =========================
 requests
 aiohttp
 
 # =========================
-# Logging / Debugging
+# Logging
 # =========================
 loguru
-
-# =========================
-# Optional (Advanced RAG / Prod)
-# =========================
-faiss-cpu        # alternative vector DB
-weaviate-client  # optional
-pinecone-client  # optional
